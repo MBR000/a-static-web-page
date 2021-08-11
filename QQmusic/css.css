@@ -1,0 +1,671 @@
+* {
+    font-family: Tahoma,Arial,\5FAE\8F6F\96C5\9ED1,sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+h1,h2,h3,h4,ul,p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    color:#333;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#31c27c
+}
+
+.song_reco,.new_song,.brilliant,.rank,.foot{
+    padding-top:50px;
+    padding-bottom: 50px;
+    
+}
+.reco_con,.song_con,.bri_con,.rank_con,.foot_con{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.tit{
+    font-size: 30px;
+    color:#333;
+    letter-spacing: 14px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 34px;
+}
+
+.reco_list{
+    padding: 0;
+    overflow: hidden;
+}
+
+.reco_list li{
+    width: 224px;
+    float: left;
+    margin-right: 20px;
+}
+
+.reco_list .nomargin{
+    margin-right:0px;
+}
+
+.list_pic img{
+    width: 224px;
+    vertical-align: top;
+}
+
+.list_tit{
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.list_num{
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    color:#999;
+}
+/* 新歌首发 */
+.tab{
+    overflow: hidden;
+    padding-left: 370px;
+}
+
+.tab a{
+    font-size:14px;
+    line-height: 22px;
+    float:left;
+    margin-right: 52px;;
+}
+
+.song_list{
+    padding:0px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.song_list .nomargin{
+    margin-right: 0px;
+}
+
+.song_list li{
+    padding:12px 0px;
+    overflow: hidden;
+    border-bottom: 1px solid #f2f2f2;
+    width:380px;
+    float:left;
+    margin-right: 30px;
+}
+
+.pic,.txt,.time{
+    float: left;
+}
+
+.txt{
+    padding:0px;
+    margin:20px 38px 0px 14px;
+    width:200px;
+}
+
+.pic{
+    width:86px;
+    height: 86px;
+}
+
+.pic img{
+    width: 86px;
+}
+
+.txt h3{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.txt p{
+    font-size: 14px;
+}
+
+.txt p a{
+    color:#999
+}
+
+.time{
+    font-size: 14px;
+    color: #999;
+    line-height: 86px;
+}
+
+/* 精彩推荐 */
+
+.bri_list{
+    padding:0px;
+    overflow: hidden;
+}
+
+.bri_list li{
+    width:590px;
+    height: 230px;
+}
+
+.bri_list .left{
+    float: left;
+}
+
+.bri_list .right{
+    float: right;
+}
+
+.bri_list li img{
+    width: 590px;
+}
+
+/* 排行榜 */
+
+.rank_list{
+    overflow: hidden;
+    padding: 0px;
+}
+.list_item{
+    width:164px;
+    height:430px;
+    margin-right: 20px;
+    float: left;
+    background: url(9.jpg) no-repeat;
+    padding: 70px 30px 0px;
+}
+
+.list_item h4{
+    font-size:20px ;
+    color: white;
+    font-weight:lighter;
+    text-align: center;
+}
+
+.list_item h3{
+    font-size: 26px;
+    line-height: 40px;
+    color: white;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+.list_item i{
+    display: block;
+    width: 36px;
+    height: 2px;
+    background-color: white ;
+    margin: 32px auto;
+}
+
+.two{
+    background-position: -224px 0px;
+}
+.three{
+    background-position: -448px 0px;
+}
+.four{
+    background-position: -672px,0px;
+}
+.five{
+    background-position: -896px,0px;
+}
+.rank_list .nomargin{
+    margin-right: 0px;
+}
+
+.item_del{
+    padding: 0px;
+}
+.item_del li{
+    font-size: 13px;
+    color: white;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.item_del .num{
+    padding-top: 4px;
+    float:left;
+    width: 20px;
+}
+
+.item_del .del_txt{
+    float: left;
+    width: 144px;
+}
+
+.del_txt p{
+    line-height: 24px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.del_txt p a{
+    color: white;
+}
+
+.del_txt p a:hover{
+    color: white;
+}
+
+/* 底部 */
+.foot{
+    background: #333;
+}
+
+.foot a{
+    color: #999;
+    display: block;
+}
+
+.bt{
+    font-size:15px ;
+    font-weight: 500;
+    line-height: 77px;
+}
+
+.con_top{
+    overflow: hidden;
+}
+
+.download,.pro,.link,.open,.tme{
+    float: left;
+}
+
+.pro{
+    padding-left:40px ;
+    margin-right: 50px;
+}
+
+.down_list{
+    overflow: hidden;
+    padding: 0px;
+    width:390px;
+}
+
+.down_item{
+    float: left;
+}
+
+.down_item i{
+    display: block;
+    background:url(12.png) no-repeat;
+    margin: 0px 29px;
+    height: 48px;
+}
+
+.pro .item01 i{
+    width: 43px;
+    background-position: -370px -3px;
+}
+.pro .item01 a:hover i{
+    background-position: -370px -52px;
+}
+.pro .item02 i{
+    width: 34px;
+    background-position: -464px -3px;
+}
+.pro .item02 a:hover i{
+    background-position: -464px -52px;
+}
+.pro .item03 i{
+    width: 40px;
+    background-position: -563px -3px;
+}
+.pro .item03 a:hover i{
+    background-position: -563px -52px;
+}
+.pro .item04 i{
+    width: 40px;
+    background-position: -650px -3px;
+}
+.pro .item04 a:hover i{
+    background-position: -650px -52px;
+}
+
+
+.item01{
+    margin-left: -29px;
+}
+.pro .item01{
+    margin-left: -26px;
+}
+
+.item01 i{
+    width: 37px;
+    background-position: -3px -3px;
+}
+.item01 a:hover i{
+    background-position: -3px -52px;
+}
+.item02 i{
+    width: 46px;
+    background-position: -92px -3px;
+}
+.item02 a:hover i{
+    background-position: -92px -52px;
+}
+.item03 i{
+    width: 37px;
+    background-position: -190px -3px;
+}
+.item03 a:hover i{
+    background-position: -190px -52px;
+}
+.item04 i{
+    width: 34px;
+    background-position: -279px -3px;
+}
+.item04 a:hover i{
+    background-position: -279px -52px;
+}
+.item05{
+    margin-right: 30px;
+}
+
+.down_item span{
+    display: block;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.down_item a:hover span{
+    color: #31c37c;
+}
+
+.link {
+    width: 312px;
+    float: left;
+}
+
+.link_list{
+    overflow: hidden;
+    padding: 0px;
+}
+
+.link_list li{
+    font-size: 14px;
+    margin-bottom: 18px;
+    line-height: 14px;
+    min-width: 100px;
+    float: left;
+}
+
+.link_list li a:hover,.open_list li a:hover,.tme_list a:hover{
+    color: #31c27c;
+}
+
+.open{
+    width: 300px;
+    margin-top: 40px;
+}
+
+.open_list{
+    overflow: hidden;
+    padding: 0px;
+}
+
+.open_list li{
+    font-size: 14px;
+    line-height: 16px;
+    min-width: 100px;
+    margin-right: 40px;
+    float: left;
+}
+
+.tme{
+    width: 400px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+.tme_list{
+    padding: 0px;
+    font-size: 14px;
+    line-height: 16px;
+    min-width: 100px;
+    margin-right: 40px;
+}
+
+
+/* 底部第二部分 */
+.con_down{
+    margin-top: 100px;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: #999;
+
+}
+
+.con_down p a{
+    display: inline;
+}
+
+.con_down a:hover{
+    color: #31c27c;
+}
+
+/* 头部 */
+.head_con{
+    width: 1200px;
+    padding-top: 140px;
+    position: relative;
+    margin: auto;
+}
+
+.logo{
+    width: 170th;
+    height: 46px;
+    position: absolute;
+    left: 0px;
+    top: 22px;
+}
+
+.logo a{
+    display: block;
+}
+
+.logo img{
+    width: 170px;
+}
+
+.head_con ul{
+    overflow: hidden;
+    position: absolute;
+    left:203px;
+    top:0px;
+}
+
+.head_con li{
+    float: left;
+    width: 96px;
+    height: 60px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.head_con li a{
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+.head_con .bkg{
+    background-color: #31c27c;
+    text-align: center;
+}
+
+.head_con .bkg a{
+    color: white;
+}
+
+.head_con .nobkg0:hover a{
+    color:#31c27c;
+}
+
+.head_con .qtq img{
+    width: 30px;
+    position: absolute;
+    left:470px;
+    top:20px;
+}
+
+.head_search{
+    width: 218px;
+    height: 36px;
+    border: 1px solid #c9c9c9;
+    border-radius: 2px;
+    position: absolute;
+    left: 700px;
+    top:25px;
+}
+
+.sear_input{
+    padding-left: 11px;
+    height: 36px;
+    line-height: 36px;
+    border: none;
+    outline: none;
+    width: 174px;
+    float: left;
+}
+
+input{
+    padding: 0;
+    margin: 0;
+}
+
+.sear_input::placeholder{
+    color: #757575;
+    font-size: 12px;
+}
+
+button{
+    background: none;
+    border: none;
+    float: left;
+    padding: 0px;
+    margin-top: 10px;
+    outline: none;
+}
+
+button i{
+    width: 17px;
+    height: 17px;
+    display: block;
+    background: url(ic.png)no-repeat;
+}
+
+button i:hover{
+    background-position: 0px -19px;
+}
+
+.head_right{
+    height: 40px;
+    position: absolute;
+    left: 940px;
+    top:24px;
+}
+
+.head_right a{
+    display: block;
+    float: left;
+}
+
+.land{
+    font-size: 16px;
+    color:black;
+    line-height: 40px;
+}
+
+.open_v{
+    font-size: 12px;
+    color: white;
+    width: 122px;
+    height: 40px;
+    line-height: 40px;
+    background: #31c27c;
+    border-radius: 2px;
+    text-align: center;
+    margin: 0px 10px 0px 13px;
+    position: relative;
+}
+
+.open_v:hover{
+    color: white;
+}
+
+.recharge{
+    font-size: 12px;
+    color: black;
+    width: 81px;
+    height: 38px;
+    line-height: 40px;
+    border: 1px solid #c9c9c9;
+    text-align: center;
+    border-radius: 2px;
+    position: relative;
+}
+
+.open_v::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid white;
+    position: absolute;
+    top:15px;
+    right:6px;
+}
+
+.recharge::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid black;
+    position: absolute;
+    top:14px;
+    right:6px;
+}
+
+.head_con .topdown{
+    border-top: 1px solid #f2f2f2;
+    position: absolute;
+    top:90px;
+    overflow: hidden;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: auto;
+}
+
+.head_con .topdown li{
+    height: 51px;
+    line-height: 51px;
+    float: left;
+    margin:0px;
+    padding: 0px;
+    width: 80px;
+}
+
+.topdown li a{
+    font-size: 14px;
+}
